@@ -1,0 +1,307 @@
+./forky 3 1
+
+process 1 beginning, pid 174582 sleeping for 4 seconds
+process 3 beginning, pid 174584 sleeping for 5 seconds
+process 2 beginning, pid 174583 sleeping for 6 seconds
+process 1 exiting, pid 174582
+process 3 exiting, pid 174584
+process 2 exiting, pid 174583
+
+./forky 5 1
+
+process 1 beginning, pid 174663 sleeping for 2 seconds
+process 2 beginning, pid 174664 sleeping for 2 seconds
+process 3 beginning, pid 174665 sleeping for 5 seconds
+process 4 beginning, pid 174666 sleeping for 8 seconds
+process 5 beginning, pid 174667 sleeping for 8 seconds
+process 1 exiting, pid 174663
+process 2 exiting, pid 174664
+process 3 exiting, pid 174665
+process 4 exiting, pid 174666
+process 5 exiting, pid 174667
+
+./forky 50 1
+
+process 1 beginning, pid 174778 sleeping for 2 seconds
+process 2 beginning, pid 174779 sleeping for 5 seconds
+process 3 beginning, pid 174780 sleeping for 8 seconds
+process 4 beginning, pid 174781 sleeping for 2 seconds
+process 5 beginning, pid 174782 sleeping for 7 seconds
+process 6 beginning, pid 174783 sleeping for 8 seconds
+process 7 beginning, pid 174784 sleeping for 2 seconds
+process 8 beginning, pid 174785 sleeping for 8 seconds
+process 9 beginning, pid 174786 sleeping for 6 seconds
+process 10 beginning, pid 174787 sleeping for 2 seconds
+process 11 beginning, pid 174788 sleeping for 5 seconds
+process 12 beginning, pid 174789 sleeping for 2 seconds
+process 13 beginning, pid 174790 sleeping for 1 seconds
+process 14 beginning, pid 174791 sleeping for 4 seconds
+process 15 beginning, pid 174792 sleeping for 4 seconds
+process 16 beginning, pid 174793 sleeping for 5 seconds
+process 18 beginning, pid 174795 sleeping for 6 seconds
+process 17 beginning, pid 174794 sleeping for 5 seconds
+process 19 beginning, pid 174796 sleeping for 8 seconds
+process 20 beginning, pid 174797 sleeping for 4 seconds
+process 22 beginning, pid 174799 sleeping for 5 seconds
+process 21 beginning, pid 174798 sleeping for 5 seconds
+process 23 beginning, pid 174800 sleeping for 1 seconds
+process 24 beginning, pid 174801 sleeping for 5 seconds
+process 25 beginning, pid 174802 sleeping for 8 seconds
+process 30 beginning, pid 174807 sleeping for 7 seconds
+process 26 beginning, pid 174803 sleeping for 3 seconds
+process 29 beginning, pid 174806 sleeping for 8 seconds
+process 31 beginning, pid 174808 sleeping for 1 seconds
+process 33 beginning, pid 174810 sleeping for 7 seconds
+process 35 beginning, pid 174812 sleeping for 3 seconds
+process 38 beginning, pid 174815 sleeping for 2 seconds
+process 36 beginning, pid 174813 sleeping for 6 seconds
+process 37 beginning, pid 174814 sleeping for 7 seconds
+process 28 beginning, pid 174805 sleeping for 8 seconds
+process 40 beginning, pid 174817 sleeping for 4 seconds
+process 49 beginning, pid 174826 sleeping for 6 seconds
+process 27 beginning, pid 174804 sleeping for 8 seconds
+process 41 beginning, pid 174818 sleeping for 2 seconds
+process 43 beginning, pid 174820 sleeping for 3 seconds
+process 46 beginning, pid 174823 sleeping for 5 seconds
+process 47 beginning, pid 174824 sleeping for 7 seconds
+process 34 beginning, pid 174811 sleeping for 6 seconds
+process 32 beginning, pid 174809 sleeping for 5 seconds
+process 42 beginning, pid 174819 sleeping for 1 seconds
+process 39 beginning, pid 174816 sleeping for 5 seconds
+process 44 beginning, pid 174821 sleeping for 6 seconds
+process 45 beginning, pid 174822 sleeping for 1 seconds
+process 50 beginning, pid 174827 sleeping for 1 seconds
+process 48 beginning, pid 174825 sleeping for 6 seconds
+process 13 exiting, pid 174790
+process 23 exiting, pid 174800
+process 31 exiting, pid 174808
+process 50 exiting, pid 174827
+process 42 exiting, pid 174819
+process 45 exiting, pid 174822
+process 1 exiting, pid 174778
+process 4 exiting, pid 174781
+process 7 exiting, pid 174784
+process 10 exiting, pid 174787
+process 12 exiting, pid 174789
+process 38 exiting, pid 174815
+process 41 exiting, pid 174818
+process 26 exiting, pid 174803
+process 35 exiting, pid 174812
+process 43 exiting, pid 174820
+process 15 exiting, pid 174792
+process 14 exiting, pid 174791
+process 20 exiting, pid 174797
+process 40 exiting, pid 174817
+process 2 exiting, pid 174779
+process 11 exiting, pid 174788
+process 16 exiting, pid 174793
+process 17 exiting, pid 174794
+process 22 exiting, pid 174799
+process 21 exiting, pid 174798
+process 24 exiting, pid 174801
+process 46 exiting, pid 174823
+process 32 exiting, pid 174809
+process 39 exiting, pid 174816
+process 9 exiting, pid 174786
+process 18 exiting, pid 174795
+process 36 exiting, pid 174813
+process 49 exiting, pid 174826
+process 44 exiting, pid 174821
+process 34 exiting, pid 174811
+process 48 exiting, pid 174825
+process 5 exiting, pid 174782
+process 30 exiting, pid 174807
+process 33 exiting, pid 174810
+process 37 exiting, pid 174814
+process 47 exiting, pid 174824
+process 3 exiting, pid 174780
+process 6 exiting, pid 174783
+process 8 exiting, pid 174785
+process 19 exiting, pid 174796
+process 29 exiting, pid 174806
+process 25 exiting, pid 174802
+process 28 exiting, pid 174805
+process 27 exiting, pid 174804
+
+./forky 3 2
+
+Process 1 beginning, process: 175203
+Process 1 175203 making Process 2 175204
+Process 1 exiting
+Process 2 beginning, process: 175204
+Process 2 175204 making Process 3 175259
+Process 2 exiting
+Process 3 beginning, process: 175259
+Process 3 175259 making Process 4 175290
+Process 3 exiting
+
+./forky 5 2
+
+Process 1 beginning, process: 175345
+Process 1 175345 making Process 2 175346
+Process 1 exiting
+Process 2 beginning, process: 175346
+Process 2 175346 making Process 3 175374
+Process 2 exiting
+Process 3 beginning, process: 175374
+Process 3 175374 making Process 4 175405
+Process 3 exiting
+Process 4 beginning, process: 175405
+Process 4 175405 making Process 5 175440
+Process 4 exiting
+Process 5 beginning, process: 175440
+Process 5 175440 making Process 6 175477
+Process 5 exiting
+
+./forky 50 2
+
+Process 1 beginning, process: 175542
+Process 1 175542 making Process 2 175543
+Process 1 exiting
+Process 2 beginning, process: 175543
+Process 2 175543 making Process 3 175587
+Process 2 exiting
+Process 3 beginning, process: 175587
+Process 3 175587 making Process 4 175633
+Process 3 exiting
+Process 4 beginning, process: 175633
+Process 4 175633 making Process 5 175634
+Process 4 exiting
+Process 5 beginning, process: 175634
+Process 5 175634 making Process 6 175671
+Process 5 exiting
+Process 6 beginning, process: 175671
+Process 6 175671 making Process 7 175672
+Process 6 exiting
+Process 7 beginning, process: 175672
+Process 7 175672 making Process 8 175758
+Process 7 exiting
+Process 8 beginning, process: 175758
+Process 8 175758 making Process 9 175804
+Process 8 exiting
+Process 9 beginning, process: 175804
+Process 9 175804 making Process 10 175853
+Process 9 exiting
+Process 10 beginning, process: 175853
+Process 10 175853 making Process 11 175913
+Process 10 exiting
+Process 11 beginning, process: 175913
+Process 11 175913 making Process 12 175968
+Process 11 exiting
+Process 12 beginning, process: 175968
+Process 12 175968 making Process 13 176028
+Process 12 exiting
+Process 13 beginning, process: 176028
+Process 13 176028 making Process 14 176056
+Process 13 exiting
+Process 14 beginning, process: 176056
+Process 14 176056 making Process 15 176160
+Process 14 exiting
+Process 15 beginning, process: 176160
+Process 15 176160 making Process 16 176228
+Process 15 exiting
+Process 16 beginning, process: 176228
+Process 16 176228 making Process 17 176229
+Process 16 exiting
+Process 17 beginning, process: 176229
+Process 17 176229 making Process 18 176303
+Process 17 exiting
+Process 18 beginning, process: 176303
+Process 18 176303 making Process 19 176379
+Process 18 exiting
+Process 19 beginning, process: 176379
+Process 19 176379 making Process 20 176490
+Process 19 exiting
+Process 20 beginning, process: 176490
+Process 20 176490 making Process 21 176538
+Process 20 exiting
+Process 21 beginning, process: 176538
+Process 21 176538 making Process 22 176572
+Process 21 exiting
+Process 22 beginning, process: 176572
+Process 22 176572 making Process 23 176624
+Process 22 exiting
+Process 23 beginning, process: 176624
+Process 23 176624 making Process 24 176719
+Process 23 exiting
+Process 24 beginning, process: 176719
+Process 24 176719 making Process 25 176906
+Process 24 exiting
+Process 25 beginning, process: 176906
+Process 25 176906 making Process 26 177006
+Process 25 exiting
+Process 26 beginning, process: 177006
+Process 26 177006 making Process 27 177107
+Process 26 exiting
+Process 27 beginning, process: 177107
+Process 27 177107 making Process 28 177147
+Process 27 exiting
+Process 28 beginning, process: 177147
+Process 28 177147 making Process 29 177317
+Process 28 exiting
+Process 29 beginning, process: 177317
+Process 29 177317 making Process 30 177426
+Process 29 exiting
+Process 30 beginning, process: 177426
+Process 30 177426 making Process 31 177427
+Process 30 exiting
+Process 31 beginning, process: 177427
+Process 31 177427 making Process 32 177471
+Process 31 exiting
+Process 32 beginning, process: 177471
+Process 32 177471 making Process 33 177661
+Process 32 exiting
+Process 33 beginning, process: 177661
+Process 33 177661 making Process 34 177783
+Process 33 exiting
+Process 34 beginning, process: 177783
+Process 34 177783 making Process 35 177953
+Process 34 exiting
+Process 35 beginning, process: 177953
+Process 35 177953 making Process 36 178032
+Process 35 exiting
+Process 36 beginning, process: 178032
+Process 36 178032 making Process 37 178162
+Process 36 exiting
+Process 37 beginning, process: 178162
+Process 37 178162 making Process 38 178297
+Process 37 exiting
+Process 38 beginning, process: 178297
+Process 38 178297 making Process 39 178298
+Process 38 exiting
+Process 39 beginning, process: 178298
+Process 39 178298 making Process 40 178438
+Process 39 exiting
+Process 40 beginning, process: 178438
+Process 40 178438 making Process 41 178494
+Process 40 exiting
+Process 41 beginning, process: 178494
+Process 41 178494 making Process 42 178731
+Process 41 exiting
+Process 42 beginning, process: 178731
+Process 42 178731 making Process 43 178881
+Process 42 exiting
+Process 43 beginning, process: 178881
+Process 43 178881 making Process 44 178882
+Process 43 exiting
+Process 44 beginning, process: 178882
+Process 44 178882 making Process 45 179036
+Process 44 exiting
+Process 45 beginning, process: 179036
+Process 45 179036 making Process 46 179193
+Process 45 exiting
+Process 46 beginning, process: 179193
+Process 46 179193 making Process 47 179194
+Process 46 exiting
+Process 47 beginning, process: 179194
+Process 47 179194 making Process 48 179520
+Process 47 exiting
+Process 48 beginning, process: 179520
+Process 48 179520 making Process 49 179523
+Process 48 exiting
+Process 49 beginning, process: 179523
+Process 49 179523 making Process 50 179699
+Process 49 exiting
+Process 50 beginning, process: 179699
+Process 50 179699 making Process 51 179761
+Process 50 exiting
